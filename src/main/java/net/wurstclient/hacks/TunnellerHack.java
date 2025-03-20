@@ -369,8 +369,6 @@ public final class TunnellerHack extends Hack
 				return;
 			}
 			
-			WURST.getHax().autoToolHack.equipBestTool(currentBlock, false, true,
-				0);
 			breakBlock(currentBlock);
 			
 			if(MC.player.getAbilities().creativeMode
